@@ -1,0 +1,19 @@
+section{
+    background-color: rgb(219,226,226);
+    width: 100%;
+    height: auto;
+}
+.service-card{
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px  black;
+    background-color: white;
+    color: black;
+}
+
+.service-card .service-img img{
+    width: 100%;
+    border-radius: 50px;
+}

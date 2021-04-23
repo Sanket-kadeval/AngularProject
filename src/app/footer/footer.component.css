@@ -1,0 +1,18 @@
+footer{
+    background-color: rgba(12, 36, 80, 1);;
+    color: white;
+}
+.social-media p a{
+    color: white;
+}
+.social-media p  a:hover{
+    text-decoration: none;
+  
+}
+.social-media p:hover{
+    font-weight: 500;
+    font-size: 18px;
+}
+.line{
+    background-color: white;
+}

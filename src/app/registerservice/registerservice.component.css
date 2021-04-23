@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(219,226,226);
+    width: 100%;
+    height: auto;
+}
+.warning {
+    width: 100%;
+    height: auto;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fdcb6e;
+}
+.warning p i{
+    color: #ffa502;
+}

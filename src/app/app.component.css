@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    background: rgba(12, 36, 80, 1);
+    color: white;
+    
+}
+.navbar{
+    padding: 15px;
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    color: white;
+}
+.collapse ul li{
+    padding: 5px 10px;
+}
+.collapse ul li a{
+    font-size: 17px;
+    color: white;
+}
+.navbar-toggler{
+    background-color:cadetblue;
+}
+.user{
+    margin-top: 70px;
+}
+.user p{
+    font-weight: 600;
+}
+.user p a:hover{
+    text-decoration: none;
+}
+
+.active{
+   
+    font-weight: bolder;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.bar i{
+    color: black;
+    font-weight: 600;
+    
+}

@@ -1,0 +1,54 @@
+<section class="form">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-lg-5 img">
+                <img [src]="myImage1" alt="" class="d-none d-lg-block">
+            </div>
+            <div class="col-lg-7 px-5 pt-5">
+                <h1 class="font-wight-bold py-3">Logo</h1>
+                <h4>Sign up your account</h4>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Enter Name" name="name" class="form-control my-2 p-3"  >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Enter Username" name="username" class="form-control my-2 p-3">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="text" placeholder="Enter Mobile No" name="mobileno" class="form-control my-2 p-3">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="email" placeholder="Enter Email Address" name="email"  class="form-control my-2 p-3">
+                    </div>
+                </div>
+                <div class="form-row mt-2">
+                    <div class="col-lg-7">
+                        <select name="typeUser" id="" class="form-control" value="select user my-2 p-3">
+                            <option selected>Select Type of User</option>
+                            <option value="normal">Normal User</option>
+                            <option value="technician">Technician User</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <input type="password" placeholder="Enter Password" name="password" class="form-control my-3 p-3">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-7">
+                        <button type="button" class="btn btn-block btn-dark my-2">SignUp</button>
+                    </div>
+                </div>
+                
+                <p class="my-3">have an account ? <a routerLink="/login">LogIn here!</a></p>
+            </div>
+        </div>
+    </div>
+</section>
